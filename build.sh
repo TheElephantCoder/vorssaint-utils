@@ -260,6 +260,7 @@ if (( TEST )); then
         Sources/Vorssaint/UI/Settings/NotchSettingsTabRow.swift
         Sources/Vorssaint/Core/NotchActivityStrings.swift
         Sources/Vorssaint/Services/Notch/NotchTimerSupport.swift
+        Sources/Vorssaint/Services/Notch/NotchAppFullscreen.swift
         Sources/Vorssaint/Services/Notch/NotchTimerAlert.swift
         Sources/Vorssaint/UI/Notch/NotchIslandAlert.swift
         Sources/Vorssaint/Services/Notch/NotchAccessorySupport.swift
@@ -282,6 +283,7 @@ if (( TEST )); then
         Sources/Vorssaint/Core/NotchNotificationStrings.swift
         Sources/Vorssaint/Core/NotchGestureStrings.swift
         Sources/Vorssaint/Core/NotchAgentStrings.swift
+        Sources/Vorssaint/Core/CodexAccountStrings.swift
         Sources/Vorssaint/Services/Notch/NotchAgentSupport.swift
         Sources/Vorssaint/Core/NotchLockScreenStrings.swift
         Sources/Vorssaint/Services/Notch/NotchLockScreenSupport.swift
@@ -289,6 +291,11 @@ if (( TEST )); then
         Sources/Vorssaint/Services/AgentUsage/AgentPricing.swift
         Sources/Vorssaint/Services/AgentUsage/AgentLogObject.swift
         Sources/Vorssaint/Services/AgentUsage/AgentLogParser.swift
+        Sources/Vorssaint/Services/AgentUsage/Harness/AgentHarnessReader.swift
+        Sources/Vorssaint/Services/AgentUsage/Harness/ClaudeReader.swift
+        Sources/Vorssaint/Services/AgentUsage/Harness/CodexReader.swift
+        Sources/Vorssaint/Services/AgentUsage/Harness/OpenCodeReader.swift
+        Sources/Vorssaint/Services/AgentUsage/Harness/CopilotReader.swift
         Sources/Vorssaint/Services/AgentUsage/AgentUsageSummary.swift
         Sources/Vorssaint/Services/AgentUsage/AgentUsageStore.swift
         Sources/Vorssaint/Services/AgentUsage/AgentUsageArchive.swift
@@ -296,6 +303,8 @@ if (( TEST )); then
         Sources/Vorssaint/Services/AgentUsage/AgentCLIConversation.swift
         Sources/Vorssaint/Services/AgentUsage/AgentClaudeServer.swift
         Sources/Vorssaint/Services/AgentUsage/AgentCodexServer.swift
+        Sources/Vorssaint/Services/AgentUsage/CodexAccountLimits.swift
+        Sources/Vorssaint/Services/AgentUsage/CodexProfileLimitsService.swift
         Sources/Vorssaint/Services/AgentUsage/AgentOpenCodeReader.swift
         Sources/Vorssaint/Services/Notch/NotchGestureSupport.swift
         Sources/Vorssaint/Services/Notch/NotchSectionPaging.swift
@@ -467,6 +476,7 @@ if (( TEST )); then
         Sources/Vorssaint/Core/MouseClickDebounceStrings.swift
         Sources/Vorssaint/Core/MouseExceptionStrings.swift
         Sources/Vorssaint/Core/ClipboardIgnoredAppsStrings.swift
+        Sources/Vorssaint/Core/ClipboardRetentionStrings.swift
         Sources/Vorssaint/Core/WindowLayoutIgnoredAppsStrings.swift
         Sources/Vorssaint/Services/WindowLayout/WindowLayoutIgnoredApps.swift
         Sources/Vorssaint/Core/WindowPreviewExclusionStrings.swift
